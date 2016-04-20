@@ -218,3 +218,4 @@ Framework7.prototype.plugins.welcomescreen = function (app, globalPluginParams) 
     };
 
 };
+

@@ -34,7 +34,7 @@ var welcomescreen_slides = [
     {
         id: 'slide3',
         picture: '<div class="tutorialicon">☆</div>',
-        text: 'Thanks for reading! Enjoy this app.<br><br><a class="tutorial-close-btn" href="#">End Tutorial</a>'
+        text: 'Thanks for reading! Enjoy this app.<br><br><a id="tutorial-close-btn" class="tutorial-close-btn" href="">End Tutorial</a>'
     }
 ];
 var options = {
@@ -42,3 +42,7 @@ var options = {
     'fontcolor': '#fff'
 };
 var welcomescreen = myApp.welcomescreen(welcomescreen_slides, options);
+
+$$(document).on('click', '.tutorial-close-btn', function () {
+    welcomescreen.close();
+});
