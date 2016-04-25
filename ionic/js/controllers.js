@@ -10,10 +10,10 @@ angular.module('starter.controllers', [])
           { text: '<b>Share</b> This' },
           { text: 'Move' }
         ],
-        titleText: 'Modify your album',
+        titleText: 'Modify',
         cancelText: 'Cancel',
         cancel: function() {
-          // add cancel code..
+          return false;
         },
         buttonClicked: function(index) {
           return true;
@@ -73,7 +73,7 @@ angular.module('starter.controllers', [])
         template: 'It might taste good'
       });
       alertPopup.then(function(res) {
-        console.log('Thank you for not eating my delicious ice cream cone');
+        console.log('Thank you');
       });
     };
   })
@@ -104,7 +104,7 @@ angular.module('starter.controllers', [])
       { content: '<img src="img/magic.jpg" alt=""/>' },
       { content: '<p>Id has viris tantas.</p>' },
       { content: '<p>Persecuti vituperata has no, ad eros expetendis reprimique ius.</p>' },
-      { content: '<img src="https://github.com/dimatwin/dimatwin.github.io/blob/master/ionic/img/terra.jpg" alt=""/>'},
+      { content: '<img src="img/magic.jpg" alt=""/>' },
       { content: '<p>Sed dicta iisque in.</p>' },
       { content: '<p>Mutat commodo fastidii has eu, his debet melius alterum ei. Sed legere doctus numquam ex.</p>' },
       { content: '<p>Ut noster consulatu vis, vis te vocent volutpat petentium.</p>' }
