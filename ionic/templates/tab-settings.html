@@ -1,0 +1,19 @@
+<ion-view view-title="Settings example">
+  <ion-content>
+    <ion-toggle ng-model="settings.onOff">
+      on/off
+    </ion-toggle>
+    <div class="item range range-energized">
+      <i class="icon ion-ios-lightbulb-outline"></i>
+      <input type="range" name="volume" min="0" max="100" value="33">
+      <i class="icon ion-ios-lightbulb"></i>
+    </div>
+    <ion-checkbox ng-model="isChecked">
+      Checkbox
+    </ion-checkbox>
+    <ion-radio ng-model="choice" ng-value="'A'">Choose A</ion-radio>
+    <ion-radio ng-model="choice" ng-value="'B'">Choose B</ion-radio>
+    <ion-radio ng-model="choice" ng-value="'C'">Choose C</ion-radio>
+
+  </ion-content>
+</ion-view>
