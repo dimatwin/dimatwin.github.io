@@ -101,7 +101,7 @@ angular.module('starter.controllers', [])
       { content: '<p>Qui ei paulo eripuit, duo et ferri repudiare.</p>' },
       { content: '<p>Ea suscipit perfecto eam, omnium commune conceptam pri at.</p>' },
       { content: '<p>Noster reformidans no cum, pri enim recteque interesset id.</p>' },
-      { content: '<img src="../img/magic.jpg" alt=""/>' },
+      { content: '<img src="img/magic.jpg" alt=""/>' },
       { content: '<p>Id has viris tantas.</p>' },
       { content: '<p>Persecuti vituperata has no, ad eros expetendis reprimique ius.</p>' },
       { content: '<img src="../img/terra.jpg" alt=""/>'},
